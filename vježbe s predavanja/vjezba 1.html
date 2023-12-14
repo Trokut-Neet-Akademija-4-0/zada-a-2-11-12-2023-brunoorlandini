@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+        .main-selecion q:first-of-type {color: blue;}
+        .main-selecion q:last-of-type {color:red}
+        .main-selecion p:first-of-type {background-color: lightgray;}
+        .main-selecion:nth-child(3) {background-color: lightpink;}
+        .main-selecion p:last-of-type {font: bold;}
+        .main-selecion time:only-of-type {font: italic;}
+        .main-selecion p:only-child {background-color: red;
+                    color: white;}
+        .main-selecion:empty {padding: 2rem; background-color: yellow; color: black;}
+        h4:not(:first-child) {color: chocolate;}
+        
+        
+        
+        
+      
+
+
+    </style>
+</head>
+<body>
+    <section class="main-selecion">
+        <q>Dodajte mi plavu boju teksta</q>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>ovo je treci element</p>
+        <time>07.02.2022</time>
+        <q>Dodajte mi crvenu boju teksta</q>
+        <p>ovo je zadnji p u sectionu</p>
+        <h4>ovo nije zadnji element</h4>
+        <time>07.02.2022</time>
+    </section>
+
+    <section class="main-selecion">
+        <p>ja sam sam D:</p>
+    </section>
+
+    <section class="main-selecion"></section>
+
+    
+</body>
+</html>
